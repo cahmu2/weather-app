@@ -1,0 +1,147 @@
+section {
+  padding-bottom: 20px;
+}
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+hr {
+  margin: 0.2rem 0px;
+}
+
+h3,
+.heading,
+.current-high,
+.current-low,
+.details,
+.temp,
+.lowest {
+  font-family: "Yeseva One", cursive;
+}
+a,
+.units {
+  color: #198754;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+}
+.city,
+.outcome,
+.day {
+  font-family: "Nunito", sans-serif;
+}
+h3,
+.heading,
+.sun,
+.current-high,
+.current-low,
+.details {
+  text-align: center;
+}
+h3,
+.heading,
+.details,
+.temp,
+.lowest,
+.sun,
+.current-high,
+.current-low,
+.sunny,
+.day,
+.cloud-sun,
+.cloud {
+  color: #331832;
+}
+h3,
+.temp {
+  font-size: 30px;
+}
+.line,
+.details {
+  padding: 0 30%;
+}
+.sun,
+.sunny,
+.cloud-sun,
+.cloud {
+  width: 100%;
+}
+.sunny,
+.cloud-sun,
+.cloud {
+  font-size: 20px;
+}
+.temp,
+.day {
+  text-align: right;
+}
+.lowest,
+.icon {
+  text-align: left;
+}
+
+.app-wrapper {
+  background: #fdefd5;
+  margin-top: 20px;
+  max-width: 800px;
+}
+.search {
+  padding: 40px 40px 0 40px;
+}
+.current {
+  justify-content: end;
+}
+.btn-success {
+  color: #198754;
+  border-color: #198754;
+  background-color: transparent;
+}
+.form-control {
+  background-color: transparent;
+}
+.heading {
+  font-size: 60px;
+  position: relative;
+}
+.heading-text {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background: transparent;
+}
+.sun {
+  padding-top: 20px;
+  font-size: 80px;
+}
+.current-high {
+  font-size: 80px;
+  padding-top: 30px;
+  line-height: 1.2;
+}
+.current-low {
+  font-size: 30px;
+}
+.details {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.week {
+  margin-bottom: 40px;
+}
+.daily {
+  padding: 0 80px;
+}
+.lowest {
+  font-size: 20px;
+}
+.bottom {
+  padding: 0 10%;
+}
+#city {
+  text-transform: uppercase;
+}
