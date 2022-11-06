@@ -85,7 +85,9 @@ h3,
 }
 .weather-app {
   background: #fdefd5;
-  max-width: 900px;
+  max-width: 850px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 .d-flex {
   padding: 40px 40px 0 40px;
