@@ -13,8 +13,8 @@ h3,
 .current-high,
 .current-low,
 .details,
-.temp,
-.lowest {
+.weather-forecast-temperature-max,
+.weather-forecast-temperature-min {
   font-family: "Yeseva One", cursive;
 }
 a,
@@ -26,7 +26,7 @@ a,
 }
 .city,
 .outcome,
-.day,
+.weather-forecast-date,
 .name {
   font-family: "Nunito", sans-serif;
 }
@@ -41,20 +41,22 @@ h3,
 h3,
 .heading,
 .details,
-.temp,
-.lowest,
+.weather-forecast-temperature-max,
+.weather-forecast-temperature-min,
 .sun,
 .current-high,
 .current-low,
 .sunny,
-.day,
+.weather-forecast-date,
 .cloud-sun,
 .cloud {
   color: #331832;
 }
-h3,
-.temp {
-  font-size: 25px;
+.current-date {
+  font-size: 35px;
+}
+.weather-forecast-temperature-max {
+  font-size: 20px;
 }
 .line,
 .details {
@@ -69,13 +71,13 @@ h3,
 .sunny,
 .cloud-sun,
 .cloud {
-  font-size: 15px;
+  font-size: 20px;
 }
-.temp,
-.day {
+.weather-forecast-temperature-max,
+.weather-forecast-date {
   text-align: right;
 }
-.lowest,
+.weather-forecast-temperature-min,
 .icon {
   text-align: left;
 }
@@ -126,7 +128,6 @@ h3,
   line-height: 1.2;
 }
 .details {
-  font-size: 14px;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -136,10 +137,12 @@ h3,
 .daily {
   padding: 0 160px;
 }
-.lowest,
+.details,
+.weather-forecast-temperature-min,
+.weather-forecast-date,
 .name,
 #open-source {
-  font-size: 16px;
+  font-size: 14px;
 }
 .bottom {
   padding: 0 10%;
@@ -150,4 +153,7 @@ h3,
 #open-source {
   color: #198754;
   text-decoration: none;
+}
+footer {
+  margin-top: 5px;
 }

@@ -25,12 +25,12 @@
               <form class="d-flex" id="search-form">
                 <div class="col-8 city">
                   <input
+                   class="form-control shadow-sm"
                     type="search"
                     placeholder="Enter City..."
                     autofocus="on"
                     autocomplete="off"
                     id="search-input"
-                    class="form-control shadow-sm"
                   />
                 </div>
                 <div class="col-2 city">
@@ -45,7 +45,7 @@
                     class="btn btn-success shadow-sm w-100"
                     id="current-button"
                   >
-                    Current
+                    Location
                   </button>
                 </div>
               </form>
@@ -68,7 +68,7 @@
                   <a href="#" id="fahrenheit-link"></a>
                 </div>
               </div>
-              <h3 id="date"></h3>
+              <h3 class="current-date" id="date"></h3>
               <div class="line">
                 <hr />
               </div>
@@ -90,6 +90,22 @@
 
             <div class="week">
               <div class="row daily">
+                <div class="col-sm-3">
+                  <div class="weather-forecast-temperature-max">21°</div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="weather-forecast-temperature-min">8</div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="weather-forecast-date">Monday</div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="icon"><i class="fa-solid fa-sun sunny"></i></div>
+                </div>
+                <div class="line bottom">
+                  <hr />
+                </div>
+
                 <div class="col-sm-3 temp">21°</div>
                 <div class="col-sm-3 lowest">8</div>
                 <div class="col-sm-3 day">Monday</div>
